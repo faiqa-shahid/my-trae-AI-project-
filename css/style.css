@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+:root{
+--federal-blue: #03045eff;
+--honolulu-blue: #0077b6ff;
+--pacific-cyan: #00b4d8ff;
+--non-photo-blue: #90e0efff;
+--light-cyan: #caf0f8ff;
+}
+body{
+    box-sizing: border-box;
+    background-color: var(--light-cyan);
+}
+.container{
+    width:50%;
+    background-color:var(--non-photo-blue);
+    max-width: 600px;
+}
+h2{
+    color:white;
+    color:var(--federal-blue);
+
+}
+.file-upload-container  {
+      background-color:white;
+}
+.btn{
+background-color: var(--federal-blue)!important; 
+color: white !important;;
+ }  
+   
