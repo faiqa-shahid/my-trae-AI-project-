@@ -25,9 +25,23 @@ h2{
 }
 .file-upload-container  {
       background-color:white;
+      padding: 15px;
+      box-shadow: 0 0 7px var(--honolulu-blue)!important; 
+      border:2px solid var(--honolulu-blue);
 }
 .btn{
 background-color: var(--federal-blue)!important; 
-color: white !important;;
- }  
-   
+color: white !important;
+}  
+textarea{
+    border :2px solid var(--honolulu-blue)!important;
+}
+
+textarea:hover{
+cursor:pointer;
+}
+textarea:focus {
+      outline: none; 
+      box-shadow: 0 0 5px var(--honolulu-blue)!important; 
+
+  }
